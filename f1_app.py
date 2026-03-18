@@ -134,7 +134,7 @@ if sd.sidebar.button("Load Telemetry"):
 
                 # FOR_ELORATINGANDPREDICTION
             sd.markdown("---")
-            sd.subheader("2025 Prediction using Strat_Score")
+            sd.subheader("ELO Rating based on the performance in race")
             try:
                 sd.info(f"Comparing Pace, Overtaking, and Consistency for elo rating.")
                 col1, col2 = sd.columns(2)
